@@ -1,0 +1,98 @@
+
+body{
+    font-family: "Barlow", serif;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 30px;
+
+}
+span{
+    color: hsl(231, 7%, 65%);
+    font-size: 30px;
+}
+.head-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 170px;
+    padding-left: 170px;
+    padding-top: 30px
+    ;
+}
+.main-container{
+    display: flex;
+    padding: 170px;
+    gap: 50px;
+    overflow: hidden;
+}
+.box-left{
+    width: 60%;
+  
+
+}
+    
+
+.span-2{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    width: 70px;
+    justify-content: center;
+
+}
+.monogram{
+    color: hsl(231, 7%, 65%);
+    letter-spacing: 3px;
+}
+h1{
+    font-size: 100px;
+   
+ 
+}
+h3{
+   color: hsl(230, 11%, 40%);
+
+ 
+}
+button{
+    background-color:hsl(0, 100%, 68%) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+.demo{
+    display: flex;
+    gap: 10px
+    ;
+}
+.mini-box{
+    display: flex;
+    gap: 20px;
+}
+.div-img{
+    margin-right: -500px;
+
+    
+    
+}
+.square{
+    background-color: hsl(207, 33%, 95%);
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -2;
+    border-bottom-left-radius: 40px;
+
+}
